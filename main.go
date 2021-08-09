@@ -25,6 +25,7 @@ func (s *solution) dfs(node int) {
 
 		s.is.push(node)
 		s.dfs(neighbor)
+		break
 	}
 
 	for !s.is.isEmpty() {
